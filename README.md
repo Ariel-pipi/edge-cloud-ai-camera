@@ -19,6 +19,9 @@
 - **工具与架构**：Git, Dotenv, 客户端-服务端 (C/S) 架构
 ## 🏃‍♂️ 运行效果
 <img width="1324" height="1126" alt="image" src="https://github.com/user-attachments/assets/68d52df4-3c6b-41b2-a62c-2e3f3cf7cec1" />
+<img width="1102" height="897" alt="香蕉" src="https://github.com/user-attachments/assets/581c7d52-b7d4-4e2d-a003-00563f387d4e" />
+<img width="1364" height="1108" alt="杯子" src="https://github.com/user-attachments/assets/f7dc26b7-9b8b-4779-8d02-dd953eda9ea1" />
+<img width="1137" height="904" alt="狗" src="https://github.com/user-attachments/assets/389779fb-2eb7-4c1b-833b-c240ff26e1c6" />
 
 
 ## 🏗️ 系统架构图
