@@ -17,6 +17,9 @@
 - **后端（Backend）**：FastAPI, Uvicorn, HTTPX, Python-Multipart
 - **云端模型（Cloud LLM）**：智谱 GLM-4V (多模态大模型 API)
 - **工具与架构**：Git, Dotenv, 客户端-服务端 (C/S) 架构
+##运行效果
+<img width="1324" height="1126" alt="image" src="https://github.com/user-attachments/assets/68d52df4-3c6b-41b2-a62c-2e3f3cf7cec1" />
+
 
 ## 🏗️ 系统架构图
 ```text
@@ -31,5 +34,4 @@
 [FastAPI 后端服务] ——> 返回 JSON
    ↓ (HTTP Response)
 [端侧终端展示结果]
-##运行效果
-<img width="1324" height="1126" alt="image" src="https://github.com/user-attachments/assets/e18483eb-5d2d-4511-b80a-969d8ba3b771" />
+
