@@ -1,0 +1,12 @@
+# 忽略虚拟环境
+venv/
+__pycache__/
+
+# 忽略敏感密钥文件（防止 API Key 泄露）
+.env
+
+# 忽略大模型权重文件（GitHub 限制单文件 100MB，模型太大传不上去）
+yolo11n.pt
+
+# 忽略测试图片
+test.jpg
