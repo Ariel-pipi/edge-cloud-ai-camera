@@ -31,3 +31,5 @@
 [FastAPI 后端服务] ——> 返回 JSON
    ↓ (HTTP Response)
 [端侧终端展示结果]
+##运行效果
+<img width="1324" height="1126" alt="image" src="https://github.com/user-attachments/assets/e18483eb-5d2d-4511-b80a-969d8ba3b771" />
