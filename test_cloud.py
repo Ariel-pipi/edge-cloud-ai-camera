@@ -8,7 +8,7 @@ load_dotenv()
 
 API_KEY = os.getenv("ALIYUN_API_KEY")
 BASE_URL = os.getenv("ALIYUN_BASE_URL")
-# ⚠️ 这里填入你在百炼控制台看到的模型名称，比如 qwen-vl-max
+# ⚠️ 这里填入控制台的模型名称，比如 qwen-vl-max
 API_KEY = os.getenv("ALIYUN_API_KEY")
 BASE_URL = os.getenv("ALIYUN_BASE_URL")
 
@@ -17,8 +17,8 @@ print(f"当前读取到的Key是: [{API_KEY}]")
 print(f"当前读取到的URL是: [{BASE_URL}]")
 MODEL_NAME = "glm-4v-flash" 
 
-# 准备一张本地测试图片 (随便找一张你电脑里的图片，改一下下面的路径)
-# 建议放在你的 ai_job 文件夹下，命名为 test.jpg
+# 准备一张本地测试图片 (改一下下面的路径)
+# 建议放在 ai_job 文件夹下，命名为 test.jpg
 image_path = "test.jpg"
 
 def encode_image(image_path):
@@ -66,7 +66,7 @@ def ask_vlm_about_image(image_path, prompt_text):
         print(response.text)
 
 if __name__ == "__main__":
-    # 确保你的电脑里有一张名为 test.jpg 的图片，和这个脚本放在同一个目录
+    # 确保电脑里有一张名为 test.jpg 的图片，和这个脚本放在同一个目录
     if os.path.exists(image_path):
         ask_vlm_about_image(image_path, "请详细描述这张图片里的内容。")
     else:

@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-# 1. 加载 YOLO11n 模型 (第一次运行会自动下载，只有6MB)
+# 1. 加载 YOLO11n 模型 
 print("正在加载 YOLO11n 模型...")
 model = YOLO("yolo11n.pt") 
 

@@ -44,7 +44,7 @@ async def analyze_image(file: UploadFile = File(...)):
         "max_tokens": 100
     }
 
-    # 使用 httpx 发送异步请求给智谱 API
+    # 使用 httpx 发送异步请求给 API
     try:
         async with httpx.AsyncClient() as client:
             response = await client.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=15.0)
